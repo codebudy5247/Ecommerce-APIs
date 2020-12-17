@@ -1,0 +1,18 @@
+{
+  "name": "eshopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server"
+  },
+  "keywords": [],
+  "author": "aditya shekhar <a.shekhar5247@gmail.com> (http://github.com/codebudy5247)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.6"
+  }
+}
