@@ -20,6 +20,12 @@ const app = express();
 //bodyparser
 app.use(express.json());
 
+//  middleware for consoling every request
+app.use((req, res, next) => {
+  console.log(`${req.method}`.green.inverse + `  ${req.originalUrl}`.dim);
+  next();
+})
+
 app.get("/", (req, res) => {
   res.send("API is running...");
 });
