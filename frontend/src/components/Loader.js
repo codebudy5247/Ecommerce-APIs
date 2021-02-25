@@ -1,9 +1,11 @@
 import React from 'react'
+import "./Loader.css"
 import { Spinner } from 'react-bootstrap'
 
 const Loader = () => {
   return (
-    <Spinner
+    <>
+    {/*<Spinner
       animation='border'
       role='status'
       style={{
@@ -14,7 +16,27 @@ const Loader = () => {
       }}
     >
       <span className='sr-only'>Loading...</span>
-    </Spinner>
+    </Spinner>*/}
+    <div className="load-page">
+            <div className="loader">
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
   )
 }
 
