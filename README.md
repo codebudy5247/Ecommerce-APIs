@@ -1,10 +1,26 @@
 # Eshop
 
-Mini E Commerce web App that I made as my first MERN stack project.
+> E Commerce web App  built with the MERN stack.
 
 ## Demo
 
 [Eshop](https://online-shop22.herokuapp.com/)
+
+## Features
+
+- Full featured shopping cart
+- Product reviews and ratings
+- Top products carousel
+- Product pagination
+- Product search feature
+- User profile with orders
+- Admin product management
+- Admin user management
+- Admin Order details page
+- Mark orders as delivered option
+- Checkout process (shipping, payment method, etc)
+- PayPal / credit card integration
+- Database seeder (products & users)
 
 ##  Technologies Used
 
@@ -51,8 +67,31 @@ PAYPAL_CLIENT_SECRET = // Paypal API secret
 
 ```shell
 $ npm run dev
+
+# Run backend only
+npm run server
 ```
 
 The app should launch automatically 😄
 
 ---
+
+## Build & Deploy
+
+```
+# Create frontend prod build
+cd frontend
+npm run build
+```
+
+### Seed Database
+
+You can use the following commands to seed the database with some sample users and products as well as destroy all data
+
+```
+# Import data
+npm run data:import
+
+# Destroy data
+npm run data:destroy
+```
