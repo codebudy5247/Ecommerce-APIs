@@ -72,8 +72,9 @@ npm run data:import
 
 # Destroy data
 npm run data:destroy
-> In the root directory run both the backend and the front end with the following command
+
 ```
+> In the root directory run both the backend and the front end with the following command
 ```shell
 $ npm run dev
 
