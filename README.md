@@ -62,7 +62,16 @@ NODE_ENV =
 PAYPAL_CLIENT_ID = // Client id for Paypal
 PAYPAL_CLIENT_SECRET = // Paypal API secret
 ```
+### Seed Database
 
+> You can use the following commands to seed the database with some sample users and products as well as destroy all data
+
+```
+# Import data
+npm run data:import
+
+# Destroy data
+npm run data:destroy
 > In the root directory run both the backend and the front end with the following command
 
 ```shell
@@ -84,14 +93,5 @@ cd frontend
 npm run build
 ```
 
-### Seed Database
 
-You can use the following commands to seed the database with some sample users and products as well as destroy all data
-
-```
-# Import data
-npm run data:import
-
-# Destroy data
-npm run data:destroy
 ```
