@@ -6,7 +6,7 @@
 
 ## Demo
 
-[Eshop](https://online-shop22.herokuapp.com/)
+[Visit Website](https://online-shop22.herokuapp.com/)
 
 ## Features
 
