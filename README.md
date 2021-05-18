@@ -2,6 +2,9 @@
 
 > E Commerce web App  built with the MERN stack.
 
+![SS](https://imgur.com/344cvhG)
+
+
 ## Demo
 
 [Eshop](https://online-shop22.herokuapp.com/)
