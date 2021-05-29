@@ -1,6 +1,5 @@
 # E Commerce Web APIs 
 
-<a href="https://online-shop22.herokuapp.com"><img src="https://drive.google.com/file/d/1cTGOIRkoH5qHUm5RU8YC48sc4SQaYBAY/view?usp=sharing" title="eshop" alt=" banner"></a>
 
 ## Demo
 
@@ -80,10 +79,4 @@ The app should launch automatically 😄
 
 ---
 
-## Build & Deploy
 
-```
-# Create frontend prod build
-cd frontend
-npm run build
-```
