@@ -1,9 +1,9 @@
 # E Commerce Web APIs 
 
 
-## Demo
+## Live API
 
-[Visit Website](https://online-shop22.herokuapp.com/)
+[Visit Website](https://online-shop22.herokuapp.com/api/products)
 
 ## Features
 
@@ -79,4 +79,4 @@ The app should launch automatically 😄
 
 ---
 
-
+#### APIs Endpoints
