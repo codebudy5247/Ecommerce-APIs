@@ -1,8 +1,5 @@
-# Eshop
+# E Commerce Web APIs 
 
-> E Commerce web App  built with the MERN stack.
-
-<a href="https://online-shop22.herokuapp.com"><img src="https://drive.google.com/file/d/1cTGOIRkoH5qHUm5RU8YC48sc4SQaYBAY/view?usp=sharing" title="eshop" alt=" banner"></a>
 
 ## Demo
 
@@ -26,9 +23,6 @@
 
 ##  Technologies Used
 
-* [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-* [Redux](https://redux.js.org/) - State managment
-* [React Bootstrap](https://redux.js.org/)  - UI
 * [Node](https://nodejs.org/en/) - Used for backend
 * [Express](https://nodejs.org/en/) - Used for backend
 * [JWT](https://nodejs.org/en/) - Used for Authentication
@@ -46,7 +40,7 @@
 > Install npm dependencies using npm install
 
 ```shell
-$ npm install && cd frontend && npm install
+$ npm install
 ```
 
 > Set up a MongoDB database either locally or provision a free database with <a href='https://www.mongodb.com/cloud/atlas'>`MongoDB Atlas`</a>
@@ -78,9 +72,6 @@ npm run data:destroy
 ```
 > In the root directory run both the backend and the front end with the following command
 ```shell
-$ npm run dev
-
-# Run backend only
 npm run server
 ```
 
@@ -88,13 +79,4 @@ The app should launch automatically 😄
 
 ---
 
-## Build & Deploy
 
-```
-# Create frontend prod build
-cd frontend
-npm run build
-```
-
-
-```
