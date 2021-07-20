@@ -3,6 +3,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 const colors = require("colors");
 const morgan = require("morgan");
+const cors = require('cors')
 const { notFound, errorHandler } = require("./middleware/errorMiddleware.js");
 const connectDB = require("./config/db.js");
 
@@ -23,10 +24,11 @@ if (process.env.NODE_ENV === "development") {
 }
 
 app.use(express.json());
+app.use(cors());
 
 //Test Routes
 app.get("/test", async (req, res) => {
-  res.json({ message: "pass!" });
+  res.json({ message: "API running!" });
 });
 
 app.use("/api/products", productRoutes);
