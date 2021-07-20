@@ -19,16 +19,13 @@ connectDB();
 
 const app = express();
 
-if (process.env.NODE_ENV === "development") {
-  app.use(morgan("dev"));
-}
 
 app.use(express.json());
 app.use(cors());
 
 //Test Routes
 app.get("/", async (req, res) => {
-  res.json({ message: "API running!" });
+  res.json({ message: "API is running!" });
 });
 
 app.use("/api/products", productRoutes);
