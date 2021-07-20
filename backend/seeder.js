@@ -1,12 +1,12 @@
-import mongoose from 'mongoose'
-import dotenv from 'dotenv'
-import colors from 'colors'
-import users from './data/users.js'
-import products from './data/products.js'
-import User from './models/userModel.js'
-import Product from './models/productModel.js'
-import Order from './models/orderModel.js'
-import connectDB from './config/db.js'
+const mongoose = require('mongoose')
+const dotenv = require('dotenv')
+const colors = require('colors')
+const users = require('./data/users.js')
+const products = require('./data/products.js')
+const User = require('./models/userModel.js')
+const Product = require('./models/productModel.js')
+const Order = require('./models/orderModel.js')
+const connectDB = require('./config/db.js')
 
 dotenv.config()
 
@@ -28,7 +28,7 @@ const importData = async () => {
 
     await Product.insertMany(sampleProducts)
 
-    console.log('Data Imported!'.green.inverse)
+    console.log('Data imported!'.green.inverse)
     process.exit()
   } catch (error) {
     console.error(`${error}`.red.inverse)
